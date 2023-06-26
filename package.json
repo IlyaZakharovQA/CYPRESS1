@@ -1,0 +1,24 @@
+{
+  "name": "cypres1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:viewport2": "npx cypress run ./e2e/login.cy.js --config-file cypress.env.config.js",
+    "chrome": "npx cypress run --browser chrome",
+    "firefox": "npx cypress run --browser firefox",
+    "chrome:head": "npx cypress run --browser chrome --headed",
+    "firefox:head": "npx cypress run --browser firefox --headed"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Ilya",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.16.0"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8"
+  },
+  "description": ""
+}
